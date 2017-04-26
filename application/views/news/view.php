@@ -1,5 +1,6 @@
 <?php
 //application/views/news/view.php
+$this->load->view($this->config->item('theme') . 'header');
 ?>
 
 <?php
@@ -8,3 +9,6 @@ echo $news_item['text'];
 
 
 ?>
+
+<?php
+$this->load->view($this->config->item('theme') . 'footer');
